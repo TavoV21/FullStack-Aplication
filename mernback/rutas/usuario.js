@@ -6,16 +6,6 @@ const verifytoken = require('../security/token');
 const {encrypt, compare} = require('../handle/handlebcrypt');
 
 
-router.get('/prueba', verifytoken, (req, res)=>{
-    var datos = {
-        tarea : "matematicas",
-        teacher : "madonna"
-    }
-    console.log(datos);
-
-    res.json([datos]);
-});
-
 router.post('/signup', async (req, res)=>{
   
     const password = req.body.password;
