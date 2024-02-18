@@ -29,6 +29,7 @@
 
 }
 
+
 .container2:hover{
     box-shadow: 5px 10px 20px 1px rgba(17, 4, 54, 0.295) !important;
     transition: 0.5s linear;
@@ -80,4 +81,27 @@ button:hover{
 
 .butttonComfirmation{
     background-color: #406493;
+}
+
+.inputwrapper{
+    width:600px;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.inputicon{
+   color: #191919;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   right: 20px;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.inputsearch{
+    border-radius: 20px;
+    border-color: #5731BB;
+    width:580px;
 }
